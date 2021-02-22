@@ -10,11 +10,8 @@ body {
   background-color: #ebf0f2;
   position: relative;
 }
-.royal-blue
-{
-color: royalblue;
 
-}
+
 /*main heading*/
   .main-heading{
     position: absolute;
@@ -54,8 +51,8 @@ box-shadow:  -20px 20px 60px #cfd1d2,
 
 /*setting styling*/
 .container {
-  height: 400px;
-  width: 500px;
+  height: 600px;
+  width: 600px;
   position: absolute;
   left: 35%;
   top: 18%;
@@ -73,7 +70,7 @@ input[type=checkbox] {
 }
 
 /*result container styling*/
-.result-container {
+.Generate-Password  {
   background-color: rgba(0, 0, 0, 0.2);
   display: flex;
   justify-content: space-between;
@@ -90,7 +87,7 @@ input[type=checkbox] {
 }
 
 /*final result text break*/
-.result-container #result {
+.Generate-Password #password {
   word-wrap: break-word;
   max-width: calc(100% - 40px);
 }
@@ -98,10 +95,10 @@ input[type=checkbox] {
 /*clipboard butto styling*/
 #clipboard {
   border-radius: 50px;
-  background: #f4f6f7;
-  box-shadow: -20px -20px 60px #cfd1d2,
-      20px 20px 60px #ffffff;
-  height: 40px;
-  width: 50px;
+  background: #7e7f80;
+  box-shadow: -20px -20px 60px #545555,
+      20px 20px 60px #545555;
+  height: 45px;
+  width: 55px;
   border: 0;
 }
