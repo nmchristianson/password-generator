@@ -1,5 +1,5 @@
 // declare varaibles from dom after load to make sure they are current 
-const results = document.querySelector("#result");
+const results = document.querySelector("#password");
 const UNInum = [48, 57];
 const UNIupper = [65, 90];
 const UNIlower = [97, 122];
